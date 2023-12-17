@@ -1858,10 +1858,10 @@ form div input:hover{
         margin-right: 10px;
     }
     .ul_nav li a{
-        font-size: 20px;
+        font-size: 17px;
     }
     ul.ul_nav{
-        gap: 29px;
+        gap: 22px;
     }
     .iconos_nav{
         display: none;
