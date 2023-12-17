@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet">
+    <title>zay</title>
+</head>
+<body>
+    <header>
+        <h1>Zay</h1>
+        <nav >
+            <ul class="ul_nav">
+                <li><a class="lista_nav" href="../index.html">Home</a></li>
+                <li><a href="./Shop.html">Shop</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./plantas.html">Plantas</a></li>
+                <li><a href="./registro.html">Registro</a></li>
+            </ul>
+        </nav>
+        <div class="iconos_nav">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-cart-check-fill"></i>
+            <i class="bi bi-person-fill"></i>
+        </div>
+    </header>
+    <main>
+
+        <div class="container_1_shop">
+            <div class="container_1_shop">
+                <figure class="img-texto_about">
+                <img src="../img/banner-sillones.jpg" alt="zapatillas">
+                </figure>
+            </div>
+            <div class="p_titulo_registro">
+                <p>"Regristrate" </p>
+                <button> CATALAGO</button>
+            </div>
+        </div >
+
+        <div class="registro">
+            <form >
+                <div class="nombre">                   
+                    <label >nonbre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="sexo">Selecciona tu sexo:</label>
+                    
+                    <input type="radio" id="hombre" name="sexo" value="hombre">
+                    <label for="hombre">Hombre</label>
+            
+            
+                    <input type="radio" id="mujer" name="sexo" value="mujer">
+                    <label for="mujer">Mujer</label>
+                  
+                </div>
+
+                <div class="telelfono">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+
+                <div class="dni_pasaporte">
+                    <label for="tipo_documento">Tipo de Documento:</label>
+                    <select id="tipo_documento" name="tipo_documento" required>
+                        <option value="DNI">DNI</option>
+                        <option value="Pasaporte">Pasaporte</option>
+                    </select>
+    
+                    <label for="numero_documento">Número de Documento:</label>
+                    <input type="text" id="numero_documento" name="numero_documento" required>
+                </div>
+
+                <div class="ubicacion">
+                    <label for="ubicacion">Ubicación:</label>
+                    <select id="ubicacion" name="ubicacion" required>
+                        <option value="BuenosAires">Provincia de Buenos Aires</option>
+                        <option value="CABA">CABA</option>
+                        <option value="Interior">Interior</option>
+                    </select>
+                </div>
+
+                <div class="correo">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+                        <h2>Formulario de Sorteo con Comprobante de Ticket</h2>
+                <div class="enviar_archivo">
+                    <p>Si participaste en el sorteo de unas zapatillas, por favor mándanos el comprobante del ticket:</p>
+                    <input type="file" id="comprobanteTicket" name="comprobanteTicket" accept="image/*">
+                    <br>
+                </div>
+            </form>
+                <div class="saludo">
+
+                    <h2>hola a todos </h2>
+                    <p>me llamo marco antonio reyes florian ,</p>
+                    <p>vivo en argetnina buenos aires mis datos estan el el footer "GRACIAS</p>
+                    <h2>"GRACIAS</h2>
+                    <div class="div_ubicacion_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8606032750363!2d-58.47970782333046!3d-34.60768625770947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9e300dc7c01%3A0x6f67f3ebfe916d93!2sGral.%20Jos%C3%A9%20Gervasio%20Artigas%20%26%20Juan%20Agust%C3%ADn%20Garc%C3%ADa%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1701601319069!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_5HBmbwb31c?si=qndMq2R8flpbzAls" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+
+                
+                </div>
+
+        </div>
+            
+
+    </main>
+    <footer>
+
+        <div class="container_5">
+            <div class="div_superior">
+
+                <div class="div_ubicacion">
+                    <div  class="icono_ubicacion">
+                        <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <div class="contenido_map_">
+                        <h3>ubicación</h3>
+                        <p>1010 Artigas, sw 54321, Sam Martin</p>
+                    </div>
+                </div>
+    
+                <div class="div_telefono">
+                    <div  class="icono_telefono">
+                        <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <div class="contenido_telefono_">
+                        <h3>Telefono</h3>
+                        <p>1156542023</p>
+                    </div>
+                </div>
+                <div class="div_mail">
+                    <div  class="icono_mail">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div class="contenido_mail_">
+                        <h3>Mail</h3>
+                        <p>bokitatony@gmail.com</p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="enlaces_medio">
+                        <ul class="ul_medio">
+                            <li> <a href="../index.html">home</a></li>
+                            <li><a href="../paginas_html/about.html">Sobre Nosotros</a></li>
+                            <li><a href="../paginas_html/Shop.html">productos</a></li>
+                            <li><a href="../paginas_html/registro.html">Regristrate</a></li>
+                        </ul>
+            </div>
+            <div class="medio_fila3">
+                    <h3>Subscribe</h3>
+                    <p>"Transforma tu vida con estilo. Suscríbete y descubre las últimas <br>
+                        tendencias en moda de hogar."
+                    </p>
+                    <input class="input_mediofinal" type="email" placeholder="bokitatony@gmail">
+                    <h2>mi hubicacion </h2>
+            </div>
+            <div class="datos_personales">
+                <p>autor</p>
+                <p>marco antonio reyes Florián</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
